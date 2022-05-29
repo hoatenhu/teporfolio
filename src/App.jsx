@@ -1,45 +1,68 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from "react";
+import {
+  Box,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+  Button,
+  IconButton,
+  Image,
+  Text,
+  useColorModeValue,
+  Flex,
+  Container,
+} from "@chakra-ui/react";
+import { HamburgerIcon } from "@chakra-ui/icons";
+import logo from "./assets/logo/wolf.png";
+import "./index.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
+    <Box bg="tomato" w="100%" p={1} color="black" flexDirection={"row"}>
+      {/* <p>hello</p> */}
+
+      <Container>
+        <Flex>
+          <Image src={logo} w={8} h={8} alt="Silly Wolf" />
+          <Text
+            color={useColorModeValue("gray.800", "whiteAlpha.900")}
+            // fontFamily="sans-serif"
+            fontWeight="700"
+            ml={3}
           >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
-  )
+            Như Hoà
+          </Text>
+        </Flex>
+        <Box>
+          <Button colorScheme="blue" onClick={() => setCount(count + 1)}>
+            What the heck
+          </Button>
+          <IconButton aria-label="Search database" />
+        </Box>
+        <Box>
+          <Menu>
+            <MenuButton as={Button} rightIcon={<HamburgerIcon />}>
+              {count}
+            </MenuButton>
+            <MenuList>
+              <MenuItem>Download</MenuItem>
+              <MenuItem>Create a Copy</MenuItem>
+              <MenuItem>Mark as Draft</MenuItem>
+              <MenuItem>Delete</MenuItem>
+              <MenuItem>Attend a Workshop</MenuItem>
+            </MenuList>
+          </Menu>
+        </Box>
+      </Container>
+    </Box>
+  );
 }
 
-export default App
+export default App;
