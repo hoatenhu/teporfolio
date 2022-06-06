@@ -4,7 +4,6 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Button,
   List,
   ListItem,
@@ -16,10 +15,12 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import {
+  IoLogoInstagram,
+  IoLogoFacebook,
+  IoLogoLinkedin,
+  IoLogoYoutube
+} from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -113,7 +114,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Worked at Farmtech
+          Worked at Farmtech, Fman
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
@@ -130,7 +131,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Photography, Music, Traveling, Swimming, Audio Book, Technology
+          Photography, Music, Traveling, Swimming, Audio-Book, Technology
         </Paragraph>
       </Section>
 
@@ -151,28 +152,6 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @inkdrop_app (English)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link href="https://instagram.com/hoa.nhu.10.3/" target="_blank">
               <Button
                 variant="ghost"
@@ -183,29 +162,40 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link
+              href="https://www.linkedin.com/in/hoa-nhu-103/"
+              target="_blank"
+            >
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @hoa-nhu-103
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link
+              href="https://www.youtube.com/channel/UCVu25Ocx687p94LQSDabb5Q"
+              target="_blank"
+            >
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoYoutube />}
+              >
+                @Te
+              </Button>
+            </Link>
+          </ListItem>
         </List>
-
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
+              My posts
             </Button>
           </NextLink>
         </Box>

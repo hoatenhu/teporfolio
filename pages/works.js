@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbChefClub from '../public/images/works/chefclub.png'
 import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
@@ -23,29 +23,29 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem
+            id="chefclub"
+            title="ChefClub"
+            thumbnail={thumbChefClub}
+          >
+            Social media for people who love and are interested in cooking can
+            also search for recipes and cookbooks
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
-          >
-            Music recommendation app for iOS
+          <WorkGridItem id="walknote" title="Klic" thumbnail={thumbWalknote}>
+            Ordering application without shipper
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
-            title="The four painters"
+            title="Klic Merchant"
             thumbnail={thumbFourPainters}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Order management application and order completion time estimation
+            for merchant
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
