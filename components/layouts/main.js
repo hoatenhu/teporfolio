@@ -18,17 +18,9 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Hoa's porfolio" />
         <meta name="author" content="Iamnhuhoa" />
         <meta name="author" content="sillywolf" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Nhu Hoa" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
         <meta property="og:site_name" content="Nhu Hoa" />
         <meta name="og:title" content="Nhu Hoa" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
         <title>Nhu Hoa</title>
       </Head>
 
