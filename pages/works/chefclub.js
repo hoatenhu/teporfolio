@@ -21,7 +21,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://www.chefclub.tv/">
-            chefclub.tv/ <ExternalLinkIcon mx="2px" />
+            chefclub.tv <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
