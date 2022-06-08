@@ -77,7 +77,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About
         </Heading>
         <Paragraph>
           {`Hoà is a front end developer (web, mobile) living in Saigon with a passion for creating technology products that bring a lot of value to

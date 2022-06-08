@@ -12,7 +12,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="walknote">
+  <Layout title="Klic">
     <Container>
       <Title>
         Klic <Badge>2022 -</Badge>
@@ -52,9 +52,10 @@ const Work = () => (
           <span>React-native</span>
         </ListItem>
       </List>
+      <WorkImage src="/images/works/klicclient.png" alt="klicclient" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/klicmain.png" alt="menkiki" />
-        <WorkImage src="/images/works/kliccart.png" alt="menkiki" />
+        <WorkImage src="/images/works/klicmain.png" alt="klicmain" />
+        <WorkImage src="/images/works/kliccart.png" alt="kliccart" />
       </SimpleGrid>
     </Container>
   </Layout>

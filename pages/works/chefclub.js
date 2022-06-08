@@ -25,6 +25,18 @@ const Work = () => (
           </Link>
         </ListItem>
         <ListItem>
+          <Meta>App Store</Meta>
+          <Link href="https://apps.apple.com/us/app/chefclub-everyone-can-cook/id1423182797">
+            Chefclub (iOS) <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Google Play</Meta>
+          <Link href="https://play.google.com/store/apps/details?id=com.chefclub.App&hl=en&gl=US">
+            Chefclub (Android) <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
           <span>Web/iOS/Android</span>
         </ListItem>

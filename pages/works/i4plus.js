@@ -1,13 +1,11 @@
 import {
-  Box,
   Container,
   Badge,
   Link,
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
-  Image
+  UnorderedList
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -62,10 +60,13 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" />
+      <WorkImage src="/images/contents/design.jpg" alt="i4plus" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/i4main.png" alt="menkiki" />
-        <WorkImage src="/images/works/monitorcontrol.png" alt="menkiki" />
+        <WorkImage src="/images/works/i4main.png" alt="i4main" />
+        <WorkImage
+          src="/images/works/monitorcontrol.png"
+          alt="monitorControl"
+        />
       </SimpleGrid>
     </Container>
   </Layout>

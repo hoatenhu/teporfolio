@@ -12,7 +12,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="The four painters">
+  <Layout title="Klic Merchant">
     <Container>
       <Title>
         Klic merchant <Badge>2022 -</Badge>
@@ -50,7 +50,7 @@ const Work = () => (
           <span>React-native</span>
         </ListItem>
       </List>
-
+      <WorkImage src="/images/works/klicmerchant.png" alt="klicmerchant" />
       <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/klicmmain.png" alt="menkiki" />
         <WorkImage src="/images/works/klicmproduct.png" alt="menkiki" />
