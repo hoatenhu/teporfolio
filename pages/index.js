@@ -38,7 +38,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an app developer in Saigon!
+        Hello, I&apos;m a developer in Saigon!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -46,7 +46,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Lê Như Hoà
           </Heading>
-          <p>Front End / Mobile / IoT Developer</p>
+          <p>Software / Front End / Mobile Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -80,9 +80,10 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          {`Hoà is a front end developer (web, mobile) living in Saigon with a passion for creating technology products that bring a lot of value to
-          life. With about 2 years of research and work, he started as an embedded device developer for IoT systems, and continues to the
-          present with front end and mobile development on both ios and android. He is always interested and ready to learn new things and optimal
+          {`Hoà is a software developer (web, mobile) living in Saigon with a passion for creating technology products that bring a lot of value to
+          life. With about 4 years of research and work, he started as an embedded device developer for IoT systems, and continues to the
+          present with front end and mobile development on both ios and android. He has contributed and built many projects for business in various
+           fields such as social network, ordering, picking bike, blockchain and F&B. He is always interested and ready to learn new things and optimal
           solutions for works. When not working he also shares content to help people with the knowledge he has. `}
           <NextLink
             href="https://www.youtube.com/channel/UCVu25Ocx687p94LQSDabb5Q"
@@ -113,16 +114,20 @@ const Home = () => (
           Join Naval Academy
         </BioSection>
         <BioSection>
-          <BioYear>2020</BioYear>
+          <BioYear>2019</BioYear>
           Worked at Farmtech, Fman
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
+          <BioYear>2020</BioYear>
           Worked at Mrvina
         </BioSection>
         <BioSection>
+          <BioYear>2021</BioYear>
+          Worked at Ant-tech
+        </BioSection>
+        <BioSection>
           <BioYear>Present</BioYear>
-          Working at Ant-tech
+          Working at Playground
         </BioSection>
       </Section>
 
@@ -186,7 +191,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoYoutube />}
               >
-                @Te
+                @Simplicite
               </Button>
             </Link>
           </ListItem>

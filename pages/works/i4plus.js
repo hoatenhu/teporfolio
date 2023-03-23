@@ -16,7 +16,7 @@ const Work = () => (
   <Layout title="i4plus">
     <Container>
       <Title>
-        i4plus <Badge>2021-</Badge>
+        i4plus <Badge>2020-2021</Badge>
       </Title>
       <P>
         IoT application in agriculture, control and monitor activities in farms
@@ -42,19 +42,25 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.mrvina.com/">
+          <Link href="https://www.mrvina.com/" target="_blank">
             mrvina.com <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>App Store</Meta>
-          <Link href="https://apps.apple.com/us/app/id1538782805">
+          <Link
+            href="https://apps.apple.com/us/app/id1538782805"
+            target="_blank"
+          >
             i4mini (iOS) <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Google Play</Meta>
-          <Link href="https://play.google.com/store/apps/details?id=com.mrfarmmobile2&hl=en_US&gl=US">
+          <Link
+            href="https://play.google.com/store/apps/details?id=com.mrfarmmobile2&hl=en_US&gl=US"
+            target="_blank"
+          >
             i4mini (Android) <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

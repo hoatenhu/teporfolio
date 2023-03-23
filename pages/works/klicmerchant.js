@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Klic Merchant">
     <Container>
       <Title>
-        Klic merchant <Badge>2022 -</Badge>
+        Klic merchant <Badge>2021-2022</Badge>
       </Title>
       <P>
         The application allows shops, restaurants, and coffee shops,.. to
@@ -24,19 +24,25 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.klic.re/">
+          <Link href="https://www.klic.re/" target="_blank">
             klic.re <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>App Store</Meta>
-          <Link href="https://apps.apple.com/vn/app/klic-merchant/id1603202003">
+          <Link
+            href="https://apps.apple.com/vn/app/klic-merchant/id1603202003"
+            target="_blank"
+          >
             Klic Merchant (iOS) <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Google Play</Meta>
-          <Link href="https://play.google.com/store/apps/details?id=com.anttech.Klicclient">
+          <Link
+            href="https://play.google.com/store/apps/details?id=com.anttech.Klicclient"
+            target="_blank"
+          >
             Klic Merchant (Android) <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

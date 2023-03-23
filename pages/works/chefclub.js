@@ -10,7 +10,7 @@ const Work = () => (
   <Layout title="ChefClub">
     <Container>
       <Title>
-        ChefClub <Badge>2022-</Badge>
+        ChefClub <Badge>2021-2022</Badge>
       </Title>
       <P>
         Application that connects food lovers, with more than 75 million
@@ -20,19 +20,25 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.chefclub.tv/">
+          <Link href="https://www.chefclub.tv/" target="_blank">
             chefclub.tv <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>App Store</Meta>
-          <Link href="https://apps.apple.com/us/app/chefclub-everyone-can-cook/id1423182797">
+          <Link
+            href="https://apps.apple.com/us/app/chefclub-everyone-can-cook/id1423182797"
+            target="_blank"
+          >
             Chefclub (iOS) <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Google Play</Meta>
-          <Link href="https://play.google.com/store/apps/details?id=com.chefclub.App&hl=en&gl=US">
+          <Link
+            href="https://play.google.com/store/apps/details?id=com.chefclub.App&hl=en&gl=US"
+            target="_blank"
+          >
             Chefclub (Android) <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
