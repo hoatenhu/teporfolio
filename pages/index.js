@@ -46,7 +46,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Lê Như Hoà
           </Heading>
-          <p>Software / Front End / Mobile Developer</p>
+          <p>Software Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -80,10 +80,10 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          {`Hoà is a software developer (web, mobile) living in Saigon with a passion for creating technology products that bring a lot of value to
-          life. With about 4 years of research and work, he started as an embedded device developer for IoT systems, and continues to the
-          present with front end and mobile development on both ios and android. He has contributed and built many projects for business in various
-           fields such as social network, ordering, picking bike, blockchain and F&B. He is always interested and ready to learn new things and optimal
+          {`Hoà is a software developer living in Saigon with a passion for creating technology products that bring a lot of value to
+          life. With about 5 years of research and work, he started as an embedded device developer for IoT systems, and continues to the
+          present with front-end and mobile development on both ios and android. He has contributed and built many projects for business in various
+           fields such as social network, ordering, booking vehicles(plane, bus, car, bike), blockchain and F&B. He is always interested and ready to learn new things and optimal
           solutions for works. When not working he also shares content to help people with the knowledge he has. `}
           <NextLink
             href="https://www.youtube.com/channel/UCVu25Ocx687p94LQSDabb5Q"
@@ -126,8 +126,12 @@ const Home = () => (
           Worked at Ant-tech
         </BioSection>
         <BioSection>
-          <BioYear>Present</BioYear>
-          Working at Playground
+          <BioYear>2022</BioYear>
+          Worked at Playground
+        </BioSection>
+        <BioSection>
+          <BioYear>2023 - Present</BioYear>
+          Working at 1Derlife Growth
         </BioSection>
       </Section>
 
