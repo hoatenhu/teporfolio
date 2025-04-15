@@ -18,7 +18,7 @@ const Work = () => (
         Vexere Mobile App <Badge>2023 - Present</Badge>
       </Title>
       <P>
-        The Vexere Mobile App brings the convenience of booking bus, flight, and train tickets to users' 
+        The Vexere Mobile App brings the convenience of booking bus, flight, and train tickets to users&apos; 
         mobile devices. With a user-friendly interface and real-time updates, users can easily search, 
         book, and manage their travel plans on the go.
       </P>
