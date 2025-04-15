@@ -38,7 +38,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a developer in Saigon!
+        Turning coffee into code in the bustling streets of Saigon 🌟
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -46,7 +46,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Lê Như Hoà
           </Heading>
-          <p>Software Developer</p>
+          <p>Software Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -80,18 +80,20 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          {`Hoà is a software developer living in Saigon with a passion for creating technology products that bring a lot of value to
-          life. With about 5 years of research and work, he started as an embedded device developer for IoT systems, and continues to the
-          present with front-end and mobile development on both ios and android. He has contributed and built many projects for business in various
-           fields such as social network, ordering, booking vehicles(plane, bus, car, bike), blockchain and F&B. He is always interested and ready to learn new things and optimal
-          solutions for works. When not working he also shares content to help people with the knowledge he has. `}
-          <NextLink
+          {`Passionate and results-driven software engineer with 5 years of experience building impactful technology products. Proven track record in delivering scalable solutions across diverse domains including social networking, e-commerce, IoT, food delivery, brokerage, and blockchain. Thrive in fast-paced environments, constantly exploring new technologies and optimizing systems for performance, usability, and maintainability.  `}
+          {/* <NextLink
             href="https://www.youtube.com/channel/UCVu25Ocx687p94LQSDabb5Q"
             passHref
           >
-            <Link target="_blank">An tiny channel</Link>
-          </NextLink>
+            <Link target="_blank">\nI have a Youtube channel</Link>
+          </NextLink> */}
         </Paragraph>
+        <NextLink
+            href="https://www.youtube.com/channel/UCVu25Ocx687p94LQSDabb5Q"
+            passHref
+          >
+            <Link target="_blank">I have a Youtube channel 😝</Link>
+          </NextLink>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -111,27 +113,19 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Join Naval Academy
+          Join Vietnam Naval Academy
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Worked at Farmtech, Fman
-        </BioSection>
-        <BioSection>
-          <BioYear>2020</BioYear>
-          Worked at Mrvina
-        </BioSection>
-        <BioSection>
-          <BioYear>2021</BioYear>
           Worked at Ant-tech
         </BioSection>
         <BioSection>
-          <BioYear>2022</BioYear>
-          Worked at Playground
+          <BioYear>2020</BioYear>
+          Working at 1Derlife Growth
         </BioSection>
         <BioSection>
-          <BioYear>2023 - Present</BioYear>
-          Working at 1Derlife Growth
+          <BioYear>2023</BioYear>
+          Currently working at Vexere
         </BioSection>
       </Section>
 
@@ -140,7 +134,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Photography, Music, Traveling, Swimming, Audio-Book, Technology
+        Technology, Photography, Music, Traveling, Swimming, Audio-Book
         </Paragraph>
       </Section>
 
