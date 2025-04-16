@@ -27,7 +27,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>ReactJS, React Native, Node.js, AWS, MongoDB, PostgreSQL</span>
+          <span>ReactJS, React Native, Node.js, Django, AWS, MongoDB, PostgreSQL</span>
         </ListItem>
       </List>
       <WorkImage src="/images/works/fzdigital.png" alt="fzdigital" />
